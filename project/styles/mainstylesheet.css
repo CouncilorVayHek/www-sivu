@@ -23,3 +23,34 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
+/* Top nav*/
+.topnav {
+    overflow: hidden;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(70deg, #d9afd9 0%, #97D9E1 100%);
+    }
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #d48bd4;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #5fd6e3;
+    color: white;
+}
+/* Logo inside topnav */
+.logo {
+    height: 40px;        /* adjust as needed */
+    margin: 8px 16px;     /* space around the logo */
+    float: left;
+}
