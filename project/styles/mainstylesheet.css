@@ -28,10 +28,12 @@ body {
   
   /* Layout container */
   .container {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 0 40px;
+    max-width: 100%;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
+  
   
   /* Typography */
   h1 {
@@ -43,6 +45,13 @@ body {
     font-weight: 700;
   }
   
+  li {
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.6;
+    color: #333;
+  }
+
   p {
     font-weight: 300;
     font-style: normal;
@@ -177,9 +186,9 @@ body {
   
   /* Content section */
   .content {
-    padding: 60px 40px;
+    padding: 50px 40px;
     background-color: #f5f5f5;
-    text-align: center;
+    text-align: left;
   }
   
   /* Text wrapper (optional if used) */
@@ -217,4 +226,27 @@ body {
     background-color: rgba(49, 49, 49, 0.8);
     transform: translateY(-3px);
   }
-  
+
+  /* Footer */
+  .site-footer {
+    background: linear-gradient(70deg, #d9afd9 0%, #97D9E1 100%);
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
+.site-footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+.site-footer a:hover {
+    color: #512251;
+}
+
+.footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
