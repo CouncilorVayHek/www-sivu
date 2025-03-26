@@ -32,7 +32,7 @@ body {
     border: 1px solid #858585;
     border-radius: 2px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .container {
@@ -74,8 +74,12 @@ p {
 
 /* Top nav */
 .topnav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     background: linear-gradient(70deg, #d9afd9 0%, #97D9E1 100%);
 }
+
 
 .topnav .container {
     display: flex;
@@ -177,3 +181,33 @@ p {
     font-size: 1.1rem;
     color: #333;
 }
+
+/* Back to top button */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    background-color: rgba(241, 241, 241, 0.6); /* subtle background */
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 50%; /* makes the button circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  #myBtn img {
+    width: 24px;
+    height: 24px;
+    display: block;
+  }
+  
+  /* Hover effect */
+  #myBtn:hover {
+    background-color: rgba(49, 49, 49, 0.8);
+    transform: translateY(-3px); /* slight lift effect */
+  }
+  
