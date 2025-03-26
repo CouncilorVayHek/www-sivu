@@ -29,18 +29,20 @@ body {
     margin: 0px auto;
     padding: 0;
     background-color: rgb(231, 231, 231);
-    border: 1px solid #858585;
+    border: 1px solid #ff0000;
     border-radius: 2px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     overflow-x: hidden;
 }
 
 .container {
-    max-width: 1520px;
-    /* should be a little smaller than page-wrapper */
+    max-width: 1140px;
     margin: 0 auto;
-    padding: 0 400px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
+
+
 
 
 
@@ -52,11 +54,27 @@ h1 {
     font-style: italic;
 }
 
+h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 p {
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
+
+
+
+/* Style the strong text (optional) */
+.content p strong {
+    font-weight: 700;
+    color: #000;
+}
+
+
 
 .nav a {
     font-family: "Ubuntu", sans-serif;
@@ -85,7 +103,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 70px;
+    padding: 20px 50px;
 }
 
 .topnav .logo {
@@ -93,7 +111,7 @@ p {
 }
 
 .topnav nav a {
-    margin-left: 20px;
+    margin-left: 10px;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -107,6 +125,14 @@ p {
     color: #512251;
     border-bottom: 2px solid #fff;
 }
+
+.text-wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
 
 /* Hero section */
 .hero-image {
@@ -176,10 +202,14 @@ p {
 }
 
 .content p {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
     font-size: 1.1rem;
     color: #333;
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 1.6;
 }
 
 /* Back to top button */
@@ -189,25 +219,27 @@ p {
     bottom: 30px;
     right: 30px;
     z-index: 999;
-    background-color: rgba(241, 241, 241, 0.6); /* subtle background */
+    background-color: rgba(241, 241, 241, 0.6);
+    /* subtle background */
     border: none;
     outline: none;
     padding: 12px;
-    border-radius: 50%; /* makes the button circular */
+    border-radius: 50%;
+    /* makes the button circular */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
-  }
-  
-  #myBtn img {
+}
+
+#myBtn img {
     width: 24px;
     height: 24px;
     display: block;
-  }
-  
-  /* Hover effect */
-  #myBtn:hover {
+}
+
+/* Hover effect */
+#myBtn:hover {
     background-color: rgba(49, 49, 49, 0.8);
-    transform: translateY(-3px); /* slight lift effect */
-  }
-  
+    transform: translateY(-3px);
+    /* slight lift effect */
+}
