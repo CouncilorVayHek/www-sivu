@@ -1,79 +1,78 @@
 <!DOCTYPE html>
 <html lang="fi">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kyberturvallisuus on tärkeää!">
-    <meta name="author" content="Iida">
-    <link href="styles/mainstylesheet.css" rel="stylesheet">
-    <link href="styles/typography.css" rel="typography">
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
-    <title>KyberTurva</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kyberturvallisuus on tärkeää!" />
+  <meta name="author" content="Iida" />
+  <link href="styles/mainstylesheet.css" rel="stylesheet" />
+  <link href="styles/typography.css" rel="stylesheet" />
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet"
+  />
+  <title>KyberTurva</title>
 </head>
-
 <body>
-    <div class="page-wrapper">
-        <header>
-            <div class="topnav">
-                <div class="container">
-                    <img src="styles/images/pink_logo.png" alt="KyberTurva logo" class="logo">
-                    <nav>
-                        <a class="active" href="index.html">Home</a>
-                        <a href="blogi.html">Blogi</a>
-                        <a href="resurssit.html">Resurssit</a>
-                    </nav>
-                </div>
-            </div>
-        </header>
+  <div class="page-wrapper">
+    <header>
+      <div class="topnav">
+        <div class="nav-inner">
+          <div class="branding">
+            <a href="index.html" class="site-name">KyberTurva</a>
+            <img src="styles/images/pink_logo.png" alt="KyberTurva logo" class="logo" />
+          </div>
+          <nav>
+            <a class="active" href="index.html">Home</a>
+            <a href="blogi.html">Blogi</a>
+            <a href="resurssit.html">Resurssit</a>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-        <section class="hero-image">
-            <div class="container">
-                <div class="hero-text">
-                    <h1>Kasvata kykyjäsi KyberTurva-sertifikaateilla</h1>
-                    <p>
-                        Kyberturvallisuus eli digitaalinen turvallisuus suojaa kaikki digitaaliset tiedot, laitteet ja
-                        resurssit
-                        – mm. henkilökohtaiset tiedot, tilit, tiedostot, kuvat ja rahat.</p>
-                    <div class="hero-buttons">
-                        <button>Lisätietoa</button>
-                        <button>Tarkista tilanne</button>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- HERO -->
+    <section class="hero-image">
+      <div class="container">
+        <div class="hero-text">
+          <h1>Kasvata Kyberturva tietoisuuttasi!</h1>
+          <p style="color: white;">Kyberturvallisuus eli digitaalinen turvallisuus suojaa kaikki digitaaliset tiedot, laitteet ja resurssit – mm. henkilökohtaiset tiedot, tilit, tiedostot, kuvat ja rahat.</p>
+          <div class="hero-buttons">
+            <button>Lisätietoa</button>
+            <button>Tarkista tilanne</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section class="content">
-            <div class="container">
-              <h2 class="center">CIA-malli</h2>
-              <div class="text-wrapper">
-              <p class="center">
-                CIA-lyhenne viittaa usein kyberturvallisuuden kolmeen keskeiseen osa-alueeseen: 
-                luottamuksellisuuteen (Confidentiality), eheyteen (Integrity) ja saatavuuteen (Availability). 
-                Nämä pilarit ohjaavat sitä, miten organisaatiot ja yksilöt suojaavat digitaaliset tietonsa 
-                sekä varmistavat, että nämä tiedot ovat turvallisia ja käytettävissä silloin, kun niitä tarvitaan.
-              </p>
-              
-                <p><strong>Luottamuksellisuus</strong> –  Luottamuksellisuuden tarkoituksena on estää luvattomia tahoja pääsemästä käsiksi tietoihin, sovelluksiin tai järjestelmiin. Käytännössä tähän kuuluvat esimerkiksi salaus, pääsynhallinta, monivaiheinen tunnistautuminen sekä erilaiset tietoturvapolitiikat. Näiden avulla varmistetaan, että arkaluonteiset tiedot, kuten henkilökohtaiset tiedot tai yrityksen sisäiset dokumentit, pysyvät suojattuina.</p>
-              
-                <p><strong>Eheys</strong> –  Eheys tarkoittaa, että tiedot pysyvät muuttumattomina tai vain asianmukaisesti muokattuina. Jos esimerkiksi laskentataulukon numerot muutetaan luvattomasti, eheys on vaarantunut. Sen suojaamiseksi käytetään usein versiohallintaa, tarkistussummia (checksumeja) ja erilaisia lokeja, joista voidaan jäljittää tapahtuneet muutokset. Eheys on tärkeää, jotta voidaan luottaa tiedon paikkansapitävyyteen.</p>
-              
-                <p><strong>Saatavuus</strong> –  Saatavuudella varmistetaan, että käyttäjillä on pääsy tietoihin ja järjestelmiin juuri silloin, kun he niitä tarvitsevat. Pahimmillaan palvelunestohyökkäys (DDoS) voi estää pääsyn järjestelmiin ylikuormittamalla ne, tai kiristysohjelma (ransomware) voi salata tiedot ja lukita käyttäjän ulos järjestelmästä. Saatavuus vaatii usein monipuolisia keinoja, kuten riittävää palvelinkapasiteettia, varmuuskopioita ja valvontajärjestelmiä, jotka havaitsevat poikkeavuudet ajoissa.</p>
-              </div>
-              
-            </div>
-          </section>
-          
-    </div>
-    <button onclick="topFunction()" id="myBtn">
-        <img src="styles/images/arrowup.png" alt="Go to top" />
-    </button>
-    <script src="scripts/allpages.js"></script>
+    <!-- CONTENT -->
+    <section class="content">
+      <div class="container">
+        <h2 class="center">CIA-malli</h2>
+        <div class="text-wrapper">
+          <p class="center">
+            CIA-lyhenne viittaa usein kyberturvallisuuden kolmeen keskeiseen osa-alueeseen:
+            luottamuksellisuuteen (Confidentiality), eheyteen (Integrity) ja saatavuuteen (Availability).
+            Nämä pilarit ohjaavat sitä, miten organisaatiot ja yksilöt suojaavat digitaaliset tietonsa
+            sekä varmistavat, että nämä tiedot ovat turvallisia ja käytettävissä silloin, kun niitä
+            tarvitaan.
+          </p>
+
+          <p><strong>Luottamuksellisuus</strong> –  Luottamuksellisuuden tarkoituksena on estää luvattomia tahoja pääsemästä käsiksi tietoihin, sovelluksiin tai järjestelmiin. Käytännössä tähän kuuluvat esimerkiksi salaus, pääsynhallinta, monivaiheinen tunnistautuminen sekä erilaiset tietoturvapolitiikat. Näiden avulla varmistetaan, että arkaluonteiset tiedot, kuten henkilökohtaiset tiedot tai yrityksen sisäiset dokumentit, pysyvät suojattuina.</p>
+          <p><strong>Eheys</strong> –  Eheys tarkoittaa, että tiedot pysyvät muuttumattomina tai vain asianmukaisesti muokattuina. Jos esimerkiksi laskentataulukon numerot muutetaan luvattomasti, eheys on vaarantunut. Sen suojaamiseksi käytetään usein versiohallintaa, tarkistussummia (checksumeja) ja erilaisia lokeja, joista voidaan jäljittää tapahtuneet muutokset. Eheys on tärkeää, jotta voidaan luottaa tiedon paikkansapitävyyteen.</p>
+          <p><strong>Saatavuus</strong> –  Saatavuudella varmistetaan, että käyttäjillä on pääsy tietoihin ja järjestelmiin juuri silloin, kun he niitä tarvitsevat. Pahimmillaan palvelunestohyökkäys (DDoS) voi estää pääsyn järjestelmiin ylikuormittamalla ne, tai kiristysohjelma (ransomware) voi salata tiedot ja lukita käyttäjän ulos järjestelmästä. Saatavuus vaatii usein monipuolisia keinoja, kuten riittävää palvelinkapasiteettia, varmuuskopioita ja valvontajärjestelmiä, jotka havaitsevat poikkeavuudet ajoissa.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Back to top -->
+  <button onclick="topFunction()" id="myBtn">
+    <img src="styles/images/arrowup.png" alt="Go to top" />
+  </button>
+  <script src="scripts/allpages.js"></script>
 </body>
-
 </html>
