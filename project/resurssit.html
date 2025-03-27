@@ -2,45 +2,64 @@
 <html lang="fi">
 
 <head>
+  <!-- Metadata -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Kyberturvallisuus on tärkeää!" />
   <meta name="author" content="Iida" />
+
+  <!-- Stylesheets -->
   <link href="styles/mainstylesheet.css" rel="stylesheet" />
   <link href="styles/typography.css" rel="stylesheet" />
-  <!-- fonts -->
+
+  <!-- Google Fonts: Ubuntu -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
     rel="stylesheet" />
+
+  <!-- Page title -->
   <title>KyberTurva</title>
 </head>
 
 <body>
   <div class="page-wrapper">
+
+    <!-- HEADER -->
     <header>
       <div class="topnav">
         <div class="nav-inner">
+
+          <!-- Logo and branding -->
           <div class="branding">
             <a href="index.html" class="site-name">KyberTurva</a>
             <a href="index.html">
               <img src="styles/images/pink_logo.png" alt="KyberTurva logo" class="logo" />
             </a>
           </div>
+
+          <!-- Navigation links -->
           <nav>
             <a href="index.html">Home</a>
             <a href="blogi.html">Blogi</a>
             <a class="active" href="resurssit.html">Resurssit</a>
           </nav>
+
         </div>
       </div>
     </header>
+
+    <!-- MAIN CONTENT -->
     <section class="content">
       <div class="container">
         <br>
+
+        <!-- Section heading -->
         <h2 class="center">CIA-malli</h2>
+
         <div class="text-wrapper">
+
           <p class="center">
             CIA-lyhenne viittaa usein kyberturvallisuuden kolmeen keskeiseen osa-alueeseen:
             luottamuksellisuuteen (Confidentiality), eheyteen (Integrity) ja saatavuuteen (Availability).
@@ -70,16 +89,21 @@
     </section>
 
   </div>
+
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="footer-container">
       <p>&copy; 2025 CouncilorVayHek</p>
       <p><a href="https://github.com/CouncilorVayHek">Github</a></p>
     </div>
   </footer>
-  <!-- Back to top -->
+
+  <!-- BACK TO TOP BUTTON -->
   <button onclick="topFunction()" id="myBtn">
     <img src="styles/images/arrowup.png" alt="Go to top" />
   </button>
+
+  <!-- JavaScript -->
   <script src="scripts/allpages.js"></script>
 </body>
 
