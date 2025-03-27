@@ -182,21 +182,20 @@ blockquote footer {
     margin-bottom: 1rem;
   }
   
-  .hero-buttons button {
-    margin: 0 10px;
+  .button {
+    display: inline-block;
     padding: 10px 20px;
-    font-size: 1rem;
-    border: none;
     background-color: #5fd6e3;
     color: white;
-    cursor: pointer;
+    border: none;
     border-radius: 5px;
-    transition: background 0.3s;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .button:hover {
+    background-color: #4cc1d1;
   }
   
-  .hero-buttons button:hover {
-    background-color: #4ab0bd;
-  }
   
   /* Content section */
   .content {

@@ -2,32 +2,44 @@
 <html lang="fi">
 
 <head>
+    <!-- Page metadata -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Kyberturvallisuus on tärkeää!" />
     <meta name="author" content="Iida" />
+
+    <!-- Main CSS stylesheets -->
     <link href="styles/mainstylesheet.css" rel="stylesheet" />
     <link href="styles/typography.css" rel="stylesheet" />
-    <!-- fonts -->
+
+    <!-- Google Fonts: Ubuntu -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet" />
+
+    <!-- Page title -->
     <title>KyberTurva</title>
 </head>
 
 <body>
     <div class="page-wrapper">
+
+        <!-- Header: logo and navigation -->
         <header>
             <div class="topnav">
                 <div class="nav-inner">
+
+                    <!-- Branding section: logo and site name -->
                     <div class="branding">
                         <a href="index.html" class="site-name">KyberTurva</a>
                         <a href="index.html">
                             <img src="styles/images/pink_logo.png" alt="KyberTurva logo" class="logo" />
                         </a>
                     </div>
+
+                    <!-- Navigation links -->
                     <nav>
                         <a class="active" href="index.html">Home</a>
                         <a href="blogi.html">Blogi</a>
@@ -46,8 +58,9 @@
                         tiedot, laitteet ja resurssit – mm. henkilökohtaiset tiedot, tilit, tiedostot, kuvat ja rahat.
                     </p>
                     <div class="hero-buttons">
-                        <button>Lisätietoa</button>
-                        <button>Tarkista tilanne</button>
+                        <a href="#aloitus" class=button>Lue lisää</a>
+                        <!-- vaiha linkki kun on contenttia-->&nbsp; &nbsp;
+                        <a href="resurssit.html" class=button>Katso työkaluja</a>
                     </div>
                 </div>
             </div>
@@ -55,7 +68,7 @@
 
         <!-- CONTENT -->
         <section class="content">
-            <div class="container">
+            <div class="container" id="aloitus">
                 <h2 class="center">Kyberturvallisuus kuuluu kaikille</h2>
                 <div class="text-wrapper">
                     <p class="center">
@@ -87,6 +100,7 @@
                     <li> Yksityisyyden menetys</li>
                 </div>
             </div>
+            <!-- CONTENT -->
             <div class="container">
                 <br>
                 <h2 class="center">Mikä ero on tieto- ja kyberturvallisuudella?</h2>
@@ -109,6 +123,7 @@
                         verkossa kuin sen ulkopuolell</p>
                 </div>
             </div>
+            <!-- CONTENT -->
             <div class="container">
                 <br>
                 <h2 class="center">Suomen kyberturvallisuusstrategia</h2>
@@ -118,7 +133,7 @@
                             Suomen kansallisen kyberturvallisuusstrategian tavoitteena on vastata kyberuhkiin, vahvistaa
                             yhteiskunnan kokonaisturvallisuutta ja varmistaa kybertoimintaympäristön toimivuus kaikissa
                             oloissa.
-                            <p>
+                        <p>
                             Strategiassa esitetään kymmenen tavoitetta, jotka toteuttamalla Suomi kykenee kansallisesti
                             hallitsemaan kybertoimintaympäristön tahallisia ja tahattomia haittavaikutuksia sekä
                             vastaamaan ja toipumaan niistä.
@@ -135,11 +150,12 @@
                             Suomen kyberturvallisuusstrategian täytäntöönpanoa seuraa Turvallisuuskomitea.
                         </p>
                         <footer>– <cite><a href="https://um.fi/kyberturvallisuus-ja-kybertoimintaymparisto"
-                            target="_blank">Ulkoministeriö</a></cite></footer>
+                                    target="_blank">Ulkoministeriö</a></cite></footer>
                         </p>
                     </blockquote>
                 </div>
             </div>
+            <!-- CONTENT -->
             <div class="container">
                 <br>
                 <h2 class="center">Kyberturvallisuus on ryhmätyötä</h2>
@@ -161,7 +177,7 @@
         <!-- closing page-wrapper -->
         <footer class="site-footer">
             <div class="footer-container">
-                <p>&copy; 2024 CouncilorVayHek</p>
+                <p>&copy; 2025 CouncilorVayHek</p>
                 <p><a href="https://github.com/CouncilorVayHek">Github</a></p>
             </div>
         </footer>
