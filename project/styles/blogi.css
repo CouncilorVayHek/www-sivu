@@ -1,3 +1,4 @@
+
 .hero-section {
     display: flex;
     justify-content: space-between;
@@ -14,5 +15,55 @@
   .hero-column:not(:last-child) {
     border-right: 2px solid #ccc;
     margin-right: 20px;
+  }
+/* RSS Feed */
+
+/* RSS Section */
+.rss-feed ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .rss-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .rss-thumb {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .rss-content {
+    flex: 1;
+  }
+  
+  .rss-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2a2a2a;
+    text-decoration: none;
+  }
+  
+  .rss-title:hover {
+    text-decoration: underline;
+  }
+  
+  .rss-date {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .rss-description {
+    font-size: 0.95rem;
+    color: #444;
   }
   

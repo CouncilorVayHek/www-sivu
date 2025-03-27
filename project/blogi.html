@@ -13,6 +13,10 @@
   <link href="styles/blogi.css" rel="stylesheet" />
   <link href="styles/typography.css" rel="stylesheet" />
 
+  <!-- RSS Feed-->
+  <link rel="alternate" type="application/rss+xml" title="KyberTurva RSS Feed" href="rss.xml" />
+
+
   <!-- Google Fonts: Ubuntu -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -62,6 +66,16 @@
         <p>Tekstiä</p>
       </div>
     </section>
+
+    <!-- Uutiset RSS FEED-->
+    <section class="content">
+    <div class="rss-feed">
+      <h2>Uutiset</h2>
+      <ul id="rss-container"></ul>
+      </div>
+    </section>
+
+    <!-- Footer-->
     <footer class="site-footer">
       <div class="footer-container">
         <p>&copy; 2025 CouncilorVayHek</p>
@@ -75,6 +89,7 @@
 
     <!-- External JS file -->
     <script src="scripts/allpages.js"></script>
+    <script src="scripts/rss.js"></script>
 
   </div>
 </body>
