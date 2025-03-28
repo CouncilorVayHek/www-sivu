@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const rssContainer = document.getElementById("rss-container");
+    const rssContainer = document.getElementById("rss-hackernews");
     const feedUrl = 'https://api.rss2json.com/v1/api.json?rss_url=https://feeds.feedburner.com/TheHackersNews';
   
     fetch(feedUrl)
       .then(response => response.json())
       .then(data => {
         if (data.items && data.items.length > 0) {
-          data.items.slice(0, 10).forEach(item => {
+          data.items.slice(0, 6).forEach(item => {
             const thumbnail = item.enclosure?.link || "https://via.placeholder.com/100";
             const pubDate = new Date(item.pubDate).toLocaleDateString('fi-FI', {
               year: 'numeric',

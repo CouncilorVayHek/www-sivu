@@ -55,24 +55,46 @@
       </div>
     </header>
 
-<!-- HERO 2 -->
-<section class="hero-image hero-two">
-  <div class="container">
-    <div class="hero-text">
-      <h1>Toinen Hero-kuva</h1>
-      <p style="color: white;">Tämä voisi olla esimerkiksi eri aiheelle tai sivulle suunnattu hero-osio.</p>
-    </div>
-  </div>
-</section>
-
-
-    <!-- Uutiset RSS FEED-->
-    <section class="content">
-    <div class="rss-feed">
-      <h2>Uutiset</h2>
-      <ul id="rss-container"></ul>
+    <!-- HERO 2 -->
+    <section class="hero-image hero-two">
+      <div class="container">
+        <div class="hero-text">
+          <h1>Toinen Hero-kuva</h1>
+          <p style="color: white;">Tämä voisi olla esimerkiksi eri aiheelle tai sivulle suunnattu hero-osio.</p>
+        </div>
       </div>
     </section>
+
+    <!-- RSS Feed: Kyberturvallisuuskeskus - Päivittäinen uutiskooste -->
+    <section class="rss-feed">
+      <h2>Kyberturvallisuuskeskus - Päivittäinen Uutiskooste</h2>
+      <ul id="rss-ncsc"></ul>
+    </section>
+
+    
+    <!-- RSS Feed: Kyberturvallisuuskeskus - Kaikki Ajankohtaista -->
+    <section class="rss-feed">
+      <h2>Kyberturvallisuuskeskus - Kaikki Ajankohtaista</h2>
+      <ul id="rss-fi"></ul>
+    </section>
+    
+    <!-- RSS Feed: Kyberturvallisuuskeskus - Tietoturva Nyt -->
+    <section class="rss-feed">
+      <h2>Kyberturvallisuuskeskus - Tietoturva Nyt</h2>
+      <ul id="rss-399"></ul>
+    </section>
+
+    <!-- RSS Feed: Hacker News -->
+    <section class="rss-feed">
+      <h2>Hacker News</h2>
+      <ul id="rss-hackernews"></ul>
+    </section>
+
+
+    <!-- "Back to top" button -->
+    <button onclick="topFunction()" id="myBtn">
+      <img src="styles/images/arrowup.png" alt="Go to top" />
+    </button>
 
     <!-- Footer-->
     <footer class="site-footer">
@@ -81,14 +103,12 @@
         <p><a href="https://github.com/CouncilorVayHek">Github</a></p>
       </div>
     </footer>
-    <!-- "Back to top" button -->
-    <button onclick="topFunction()" id="myBtn">
-      <img src="styles/images/arrowup.png" alt="Go to top" />
-    </button>
 
     <!-- External JS file -->
     <script src="scripts/allpages.js"></script>
     <script src="scripts/rss.js"></script>
+    <script src="scripts/rssKTK.js"></script>
+
 
   </div>
 </body>
