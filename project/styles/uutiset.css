@@ -17,6 +17,24 @@
     margin-right: 20px;
   }
 /* RSS Feed */
+.rss-feed h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+/* Alternate section background colors */
+.rss-feed:nth-of-type(even) {
+  background-color: #f0f0f0da;
+  padding: 2rem;
+  border-radius: 12px;
+}
+/* Alternate section background colors */
+.rss-feed:nth-of-type(odd) {
+  background-color: #f0f0f0da;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
 
 /* RSS Section */
 .rss-feed ul {
@@ -66,5 +84,7 @@
     font-size: 0.95rem;
     color: #444;
   }
+
+
   
 
